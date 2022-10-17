@@ -1,0 +1,267 @@
+$primary: #364F6B;
+$secondary: #3FC1C9;
+$third: #F5F5F5;
+$fourth: #FC5185;
+
+@media screen and (max-width: 499px) {
+  .container-detail {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+
+    .card {
+      margin: 0px
+    }
+  }
+.hero {
+        width: 1000px;
+    }
+  .nav {
+    z-index: 10;
+    background-color: $fourth;
+    width: 200px;
+    position: absolute;
+    display: flex;
+
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+
+  .open {
+    width: 100%;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .nav__item {
+    display: list-item;
+    border-bottom: 2px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+  }
+
+}
+
+  
+  @media screen and (max-width: 499px) {
+    .container-detail {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(1, 1fr);
+
+      .card {
+        margin: 0px
+      }
+    }
+  .hero {
+        width: 1000px;
+    }
+    
+    .nav {
+      z-index: 10;
+      background-color: $fourth;
+      width: 200px;
+      position: absolute;
+      display: flex;
+  
+      -webkit-transform: translate(-300px, 0);
+      transform: translate(-300px, 0);
+  
+      /* Optionally, we animate the drawer. */
+      transition: transform 0.3s ease;
+    }
+  
+    .open {
+      width: 100%;
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    .nav__item {
+      display: list-item;
+      border-bottom: 2px solid #E0E0E0;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media screen and (max-width: 649px) {
+    .container-detail {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(1, 1fr);
+
+      .card {
+        margin: 0px
+      }
+    }
+  .hero {
+        width: 1000px;
+    } 
+
+    .nav {
+      z-index: 10;
+      background-color: $fourth;
+      width: 200px;
+      position: absolute;
+      display: flex;
+  
+      -webkit-transform: translate(-300px, 0);
+      transform: translate(-300px, 0);
+  
+      /* Optionally, we animate the drawer. */
+      transition: transform 0.3s ease;
+    }
+  
+    .open {
+      width: 100%;
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    .nav__item {
+      display: list-item;
+      border-bottom: 2px solid #E0E0E0;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media screen and (min-width: 650px) {
+    .container-detail {
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(1, 1fr);
+
+      .card {
+        margin: 0px
+      }
+    }
+  .hero {
+        width: 1000px;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .container-detail {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+
+      .card {
+        margin: 5px
+      }
+    }
+  .hero {
+        width: 1000px;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .container-detail {
+      width: 85%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+
+      .card {
+        margin: 5px
+      }
+    }
+  .hero {
+        width: 1000px;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .container-detail {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+
+      .card {
+        margin: 5px
+      }
+    }
+  .hero {
+        width: 1000px;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .container-detail {
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(3, 1fr);
+
+      .card {
+        margin: 10px
+      }
+    }
+    .hero {
+        width: 1000px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container-detail {
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .row {
+      grid-template-columns: repeat(3, 1fr);
+
+      .card {
+        margin: 10px
+      }
+    }
+    .hero {
+        width: 1000px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .nav__menu {
+      display: none;
+    }
+  }
