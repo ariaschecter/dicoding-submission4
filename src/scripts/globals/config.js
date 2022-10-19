@@ -6,7 +6,7 @@ const CONFIG = {
     MEDIUM: 'https://restaurant-api.dicoding.dev/images/medium',
     LARGE: 'https://restaurant-api.dicoding.dev/images/large',
   },
-  CACHE_KEY: 'Arlana-v1',
+  CACHE_KEY: 'Acielanav1',
   DATABASE_NAME: 'arlana-database',
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'aciel',

@@ -18,10 +18,14 @@ const FavouriteRestaurant = {
     document.querySelector('title').textContent = `Favourite | ${CONFIG.BASE_TITLE}`;
     const restaurants = await FavouriteRestaurantIdb.getAllARestaurants();
     const restaurantContainer = document.querySelector('#list__restaurants');
-
-    restaurants.forEach((restaurant) => {
-      restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
-    });
+    console.log(restaurants);
+    if (restaurants.length) {
+      restaurants.forEach((restaurant) => {
+        restaurantContainer.innerHTML += createRestaurantItemTemplate(restaurant);
+      });
+    } else {
+      restaurantContainer.innerHTML = '<h3 class="restaurant-item__not__found">Tidak ada Restaurant untuk ditampilkan</h3>';
+    }
   },
 };
 

@@ -10,8 +10,9 @@ $fourth: #FC5185;
 }
 
 .main__content {
+  height: 44px;
   position: absolute;
-  top: -40px;
+  top: -44px;
   left: 0;
   padding: 8px;
   background-color: $fourth;
@@ -234,6 +235,7 @@ body, html {
     box-sizing: border-box;
   }
 }
+
 .submit {
   border-radius: 15px;
   width: 100%;

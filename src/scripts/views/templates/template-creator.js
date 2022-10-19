@@ -5,7 +5,9 @@ const createRestaurantItemTemplate = (restaurant) => `
       <img class="lazyload card__img" src="${CONFIG.BASE_IMG_URL.MEDIUM}/${restaurant.pictureId}" alt="Gambar dari ${restaurant.name}">
       <div class="star__img">${restaurant.rating} <i class="fas fa-star"></i></div>
       <div class="location__img"><i class="fas fa-location-dot"></i> ${restaurant.city}</div>
-      <a href="#/detail/${restaurant.id}"><h4 class="h4">${restaurant.name}</h4></a>
+      <h4 class="h4" id="restaurant__title">
+        <a href="#/detail/${restaurant.id}" class="detail__link">${restaurant.name}</a>
+      </h4>
     </div>
 `;
 
