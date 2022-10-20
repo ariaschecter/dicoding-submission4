@@ -8,8 +8,8 @@ const HomeRestaurant = {
     <div>
       <div class="hero mb">
         <picture>
-          <source type="image/webp" srcset="./img/hero-image.webp" class="hero__img">
           <source media="(max-width: 600px)" type="image/jpeg" srcset="./img/hero-image-small.jpg" class="hero__img">
+          <source type="image/webp" srcset="./img/hero-image.webp" class="hero__img">
           <img src="./img/hero-image.jpg" alt="Tampilan Hero Image" class="hero__img">
         </picture>
       </div>
